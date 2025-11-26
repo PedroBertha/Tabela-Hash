@@ -120,14 +120,12 @@ Foi utilizada a base fornecida pelo professor contendo 100.788 nomes brasileiros
 O trabalho exige que M seja aproximadamente 50. Foram testados:
 
 M = 53
+
 <img width="540" height="324" alt="image" src="https://github.com/user-attachments/assets/9d5f4d13-c127-4a09-a374-b8cd48f03137" />
 
 M = 59
+
 <img width="533" height="317" alt="image" src="https://github.com/user-attachments/assets/8a0fb7df-fb30-415c-81ce-628ea0181a6b" />
-
-M = 71
-
-Todos são números primos, o que reduz padrões e melhora a dispersão. Após testes e análise dos histogramas, concluiu-se que M = 71 apresentou a melhor distribuição.
 
 A justificativa teórica:
 
@@ -166,6 +164,7 @@ A função FNV-1a distribuiu os nomes de forma eficiente
 M = 71 apresentou o comportamento mais uniforme
 
 Isso confirma a qualidade da função hash e da abordagem de encadeamento.
+
 
 
 
