@@ -79,7 +79,7 @@ void ht_sort_bucket(HashTable *ht, size_t i) {
     char **arr = dlist_to_array(ht->buckets[i], &arr_n);
     if (!arr) return;
     qsort_generic((void **)arr, arr_n, compare_cstrings);
-    /* rebuild the list: free existing list and re-insert sorted items */
+    /* rebuild the list: free existing list and re-insert sorted items */ 
     dlist_free(ht->buckets[i]);
     ht->buckets[i] = dlist_create();
     for (size_t k = 0; k < arr_n; ++k) {
