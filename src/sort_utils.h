@@ -1,7 +1,7 @@
 #ifndef SORT_UTILS_H
 #define SORT_UTILS_H
 
-#include <stddef.h>   // <-- IMPORTANTE! resolve o erro do size_t
+#include <stddef.h>
 
 /* comparator for qsort on char* */
 int compare_cstrings(const void *a, const void *b);
