@@ -169,3 +169,4 @@ Isso confirma a qualidade da função hash e da abordagem de encadeamento.
 
 <img width="533" height="317" alt="image" src="https://github.com/user-attachments/assets/8a0fb7df-fb30-415c-81ce-628ea0181a6b" />
 
+
