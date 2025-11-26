@@ -78,3 +78,8 @@ Toda a tabela foi construída utilizando encadeamento, conforme item obrigatóri
 Base de Dados Utilizada
 Foi utilizada a base fornecida pelo professor contendo 100.788 nomes brasileiros, garantindo adequação ao requisito e permitindo uma análise estatística realista.
 
+PARA RODAR E COMPILAR:
+
+1: gcc src/*.c -o hash_app.exe
+
+2: build/hash_app.exe
